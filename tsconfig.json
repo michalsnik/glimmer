@@ -1,24 +1,24 @@
 {
-    "compilerOptions": {
-        "target": "es2015",
-        "inlineSourceMap": true,
-        "inlineSources": true,
-        "moduleResolution": "node",
-        "rootDir": "packages",
-        "baseUrl" : "./",
-        "paths": {
-            "*": [
-                "packages/*",
-                "node_modules/*"
-            ]
-        }
-    },
-    "exclude": [
-        "dist",
-        "demos",
-        "tmp",
-        "node_modules",
-        "bower_components",
-        ".vscode"
-    ]
+  "compilerOptions": {
+    "target": "es2015",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "moduleResolution": "node",
+    "rootDir": "packages",
+    "baseUrl": "./",
+    "paths": {
+      "*": [
+        "packages/*",
+        "node_modules/*"
+      ]
+    }
+  },
+  "exclude": [
+    "dist",
+    "demos",
+    "tmp",
+    "node_modules",
+    "bower_components",
+    ".vscode"
+  ]
 }
